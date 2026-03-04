@@ -1,5 +1,3 @@
- Piensa en el array estático como las plataformas de aterrizaje fijas de una estación espacial: tienes un número exacto de bahías, y cada una puede estar vacía (`null`) u ocupada por una nave.
----
 # 🚀 Sistema de Gestión – Estación Espacial Órbita
 
 ## 🎯 Objetivo
@@ -105,4 +103,7 @@ Debe:
   `public Nave despegarNave(int id)`
 * Implementa un método que reorganice las naves en las bahías, ordenándolas por su ID de mayor a menor y agrupándolas al principio del array (sin dejar huecos `null` entre ellas):
   `public void organizarBahias()`
+
+---
+ Piensa en el array estático como las plataformas de aterrizaje fijas de una estación espacial: tienes un número exacto de bahías, y cada una puede estar vacía (`null`) u ocupada por una nave.
 
